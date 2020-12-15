@@ -1,0 +1,63 @@
+{
+    "intent1": {
+        "intentName": "GREET",
+        "keyWords": ["hello"],
+        "handler": "GREET_handler"
+    },
+    "intent2": {
+        "intentName": "GOODBYE",
+        "keyWords": ["bye"],
+        "handler": "GOODBYE_handler"
+    },
+    "intent3": {
+        "intentName": "REPEAT",
+        "keyWords": ["again", "repeat"],
+        "handler": "REPEAT_handler"
+    },
+    "intent4": {
+        "intentName": "TIME",
+        "keyWords": ["timings", "hour"],
+        "handler": "TIME_handler"
+    },
+    "intent5": {
+        "intentName": "CURIOSITY",
+        "keyWords": ["curiosity", "fact", "something"],
+        "handler": "CURIOSITY_handler"
+    },
+    "intent6": {
+        "intentName": "CHAMPION",
+        "keyWords": ["champion", "world"],
+        "handler": "CHAMPION_handler"
+    },
+    "intent7": {
+        "intentName": "TOP_PLAYERS",
+        "keyWords": ["ranking", "top"],
+        "handler": "TOP_PLAYERS_handler"
+    },
+    "intent8": {
+        "intentName": "MY_RATING",
+        "keyWords": ["rating", "elo"],
+        "handler": "MY_RATING_handler"
+    },
+    "intent9": {
+        "intentName": "PLAYED_GAMES",
+        "keyWords": ["much", "many"],
+        "handler": "PLAYED_GAMES_handler"
+    },
+    "intent10": {
+        "intentName": "CHALLENGE",
+        "keyWords": ["challenge", "play"],
+        "handler": "CHALLENGE_handler"
+    },
+    "intent11": {
+        "intentName": "TOURNAMENT",
+        "keyWords": ["tournament", "event", "contest"],
+        "handler": "TOURNAMENT_handler"
+    },
+    "intent12": {
+        "intentName": "JOIN_TEAM",
+        "keyWords": ["team", "join"],
+        "handler": "JOIN_TEAM_handler"
+    }
+}
+
