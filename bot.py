@@ -3,6 +3,11 @@ import berserk
 import modules.detection as detection
 import modules.settings as settings
 import modules.lichess as lichess
+import modules.settings as settings
+
+# install data
+settings.install_data("./nltk_data")
+#####
 
 # load setting
 settings.config_filename = "settings/config.json"

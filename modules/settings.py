@@ -1,4 +1,6 @@
 import json
+import nltk
+from os import path
 
 global config_filename
 
@@ -12,7 +14,8 @@ def load_config():
     return config
 
 def install_data(dir):
-    pass
+    if not path.exists("nltk_data"):
+        nltk.download('wordnet', download_dir=dir)
 
 def dump_all_keywords(filename, intents):
     pass
