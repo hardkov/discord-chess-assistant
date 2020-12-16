@@ -28,6 +28,10 @@ detection.extend_keywords()
 detection.build_regex_dict()
 #####
 
+# dump all produced keywords to file (just from curiosity)
+settings.dump_all_keywords("all_keywords.txt", detection.intents)
+#####
+
 client = discord.Client()
 currently_processed_intent = None
 

@@ -18,4 +18,14 @@ def install_data(dir):
         nltk.download('wordnet', download_dir=dir)
 
 def dump_all_keywords(filename, intents):
-    pass
+    file = open(filename, "w+")
+
+    for intent in intents:
+        file.write(intent["intentName"] + ":\n")
+        
+        for keyword in intent['keyWords']:
+            file.write(keyword + "\n")
+        
+        file.write("\n")
+
+    file.close()
